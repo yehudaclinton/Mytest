@@ -1,1 +1,14 @@
 this is a git setup on linux
+
+
+instruction to remind myselft how to post files on github:
+
+cd Mytest
+
+git add filename
+
+git commit -m "some_message"
+
+git remote add origin https://github.com/user_name/Mytest.git
+
+git push origin master
