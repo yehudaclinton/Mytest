@@ -3,6 +3,8 @@ this is a git setup on linux
 
 instruction to remind myselft how to post files on github:
 
+git init filepath (this makes a local git folder)
+
 cd Mytest
 
 git add filename
