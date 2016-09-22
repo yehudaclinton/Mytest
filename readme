@@ -12,3 +12,7 @@ git commit -m "some_message"
 git remote add origin https://github.com/user_name/Mytest.git
 
 git push origin master
+
+more instructions:
+
+https://guides.github.com/activities/hello-world/
