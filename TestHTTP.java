@@ -56,7 +56,7 @@ public class TestHTTP extends AsyncTask<String, Void, String> {
                     String name = "";
                     //the the following is supposed to return just the title of book
                     for (int i = 0; i < items.size(); i++) {
-                        JSONObject item = (JSONObject) items.get(i);
+                        JSONObject item = (JSONObject) items.get(i);//if 'i' equals more then one program crashes
                         if(item.get("title")!=null) {//only get the title
                             JSONObject theTitle = (JSONObject) item.get("title");
                             name = (String) theTitle.get("title");
