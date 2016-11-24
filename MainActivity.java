@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void populateList(View view){
 
+        String someText = new urlJSON(listItemView, input).execute().get();
+        
         listItemView = (ListView) findViewById(R.id.bookListView);
         String[] listItemsValue = new String[]{book1};
 
